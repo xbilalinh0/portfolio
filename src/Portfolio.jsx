@@ -172,7 +172,7 @@ const Portfolio = () => {
           >
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-[0_0_20px_rgba(255,255,255,0.2)]">
               <img
-                src="\src\bilal.png"
+                src="bilal.png"
                 alt="Bilal El Harmachi"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -333,7 +333,7 @@ const Portfolio = () => {
                   {/* Contenedor de Imagen */}
                   <div className="w-full h-48 overflow-hidden bg-neutral-900 border-b border-neutral-800">
                     <img 
-                      src="https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Captura+Portfolio" 
+                      src="portfolio.png" 
                       alt="Preview Portfolio" 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                     />
@@ -358,7 +358,7 @@ const Portfolio = () => {
                   {/* Contenedor de Imagen */}
                   <div className="w-full h-48 overflow-hidden bg-neutral-900 border-b border-neutral-800">
                     <img 
-                      src="\src\todolist.png" 
+                      src="todolist.png" 
                       alt="Preview Todo List" 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                     />
@@ -384,7 +384,7 @@ const Portfolio = () => {
                   {/* Contenedor de Imagen */}
                   <div className="w-full h-48 overflow-hidden bg-neutral-900 border-b border-neutral-800">
                     <img 
-                      src="\src\reiko.png" 
+                      src="reiko.png" 
                       alt="Preview Videojuego" 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                     />
