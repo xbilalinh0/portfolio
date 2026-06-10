@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // 1. AÑADIMOS LA BASE: Sin esto, GitHub no encontrará los archivos .js y .css
-  base: '/portfolio/', 
+  base: '/', 
   server: {
     port: 3000,
     open: true
