@@ -1,7 +1,7 @@
 {
   "name": "developer-portfolio",
   "version": "1.0.0",
-  "description": "Portafolio web profesional para desarrollador",
+  "description": "Portafolio web",
   "private": true,
   "dependencies": {
     "framer-motion": "^10.16.4",
