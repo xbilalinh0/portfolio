@@ -14,7 +14,7 @@ const Portfolio = () => {
   const [formStatus, setFormStatus] = useState('');
 
   const fullName = 'Bilal El Harmachi';
-  const fullRole = 'Estudiante';
+  const fullRole = 'Desarrollador de Software y Técnico IT';
 
   // DATOS DE HABILIDADES
   // Usamos URLs de Devicon para asegurar que los iconos originales se vean perfectos sin instalar librerías.
@@ -23,6 +23,7 @@ const Portfolio = () => {
       { name: 'HTML5', pct: 90, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS3', pct: 85, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', pct: 75, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+      { name: 'React + Vite', pct: 80, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'Java', pct: 20, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
       { name: 'Python', pct: 70, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
     ],
@@ -31,6 +32,8 @@ const Portfolio = () => {
       { name: 'GitHub', pct: 85, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg', invert: true }, // Invertimos color porque el original es negro
       { name: 'VS Code', pct: 95, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
       { name: 'Linux', pct: 65, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
+      { name: 'Trello', pct: 75, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-original.svg' },
+      { name: 'XAMPP', pct: 70, img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xampp/xampp-original.svg' },
     ]
   };
 
@@ -238,16 +241,17 @@ const Portfolio = () => {
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-white border-l-4 border-white pl-4">Sobre mí</h2>
               <div className="space-y-6 text-gray-300 text-lg font-light leading-relaxed">
-                <p> ¡Hola! Soy <strong className="text-white font-semibold">Bilal El Harmachi</strong> conocido en internet como <strong className="text-white font-semibold">xbilalO</strong>.
-                Soy un estudiante apasionado por el desarrollo de software y montaje de equipos. Me encanta aprender nuevas tecnologías y crear 
+                <p> ¡Hola! Soy <strong className="text-white font-semibold">Bilal El Harmachi</strong> y tengo <strong className="text-white font-semibold">17 años</strong>.
+                Soy un estudiante apasionado por el desarrollo de software y también montaje y mantenimiento de equipos. Me encanta aprender nuevas tecnologías y crear 
                 proyectos que resuelvan problemas reales. 
                 </p> 
-                <p> Actualmente estoy cursando el segundo año de <strong className="text-white font-semibold">Sistema Microinformáticos y Redes.</strong>. 
+                <p> Actualmente estoy acabando el segundo año de <strong className="text-white font-semibold">Sistema Microinformáticos y Redes 25/26.</strong>. 
                 Soy una persona que le gusta trabajar en equipo, soy una persona muy organizada, simpática y amable. 
-                Me gusta participar en cosas nuevas y hacer cosas que no sé para aprenderlas y tener mas experiencia. </p>
+                Me gusta participar en cosas nuevas y hacer cosas que no sé, para aprenderlas y tener mas experiencia. </p>
                 <p> Me gusta aprender cosas por mi cuenta, y aprendo rápido por ello he creado muchos proyectos personales 
-                con la intención de mejorar y aprender, actualmente estoy trabajando en un prototipo de un juego multijugador para poder subirlo a Steam en un futuro.
+                con la intención de mejorar y aprender, actualmente estoy dispuesto a trabajar para formarme en un entorno profesional.
                 </p>
+                <p>Me considero una persona con mucha experiencia trabajando en equipo y organizando proyectos.</p>
                 <p>
                 Cuento con un <strong className="text-white font-semibold">Certificado JavaScript</strong>.
                 </p>
@@ -321,8 +325,6 @@ const Portfolio = () => {
           )}
 
           {/* PROYECTOS */}
-          {/* PROYECTOS */}
-          {/* PROYECTOS */}
           {activeTab === 'proyectos' && (
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="max-w-5xl mx-auto">
               <h2 className="text-3xl font-bold mb-8 text-white border-l-4 border-white pl-4">Proyectos</h2>
@@ -391,11 +393,11 @@ const Portfolio = () => {
                   </div>
                   <div className="p-8 flex flex-col flex-1">
                     <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-2xl font-bold text-white group-hover:underline decoration-white underline-offset-4">Videojuego (Demo)</h3>
+                      <h3 className="text-2xl font-bold text-white group-hover:underline decoration-white underline-offset-4">Reiko STUDIO</h3>
                       <ExternalLink className="w-5 h-5 text-white" />
                     </div>
                     <p className="text-gray-400 mb-8 flex-1">
-                      Demo técnica de "Oops! Mis Ojos!". Segundo puesto en torneo de desarrollo. Programación lógica avanzada.
+                      Demo técnica de "Oops! Mis Ojos!". Segundo puesto en torneo de desarrollo. Tintoria Playtest! Programación lógica avanzada.
                     </p>
                     <div className="flex items-center gap-4">
                       <img title="Godot Engine" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" alt="Godot" className="w-7 h-7 hover:scale-110 transition-transform" />
