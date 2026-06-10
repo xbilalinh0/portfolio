@@ -252,7 +252,7 @@ const Portfolio = () => {
                 con la intención de mejorar y aprender, actualmente estoy dispuesto a trabajar para formarme en un entorno profesional.
                 </p>
                 <p>Me considero una persona con mucha experiencia trabajando en equipo y organizando proyectos.
-                  He trabajado durante un periodo de 3 meses como desarrollador de software en <strong><a href="https://maps.app.goo.gl/KH1mnb7NiEkyGqTn7" target="_blank" rel="noopener noreferrer">Hotel MAS Monzon</a></strong>.
+                  He trabajado durante un periodo de 3 meses como desarrollador de software en <strong><a href="https://maps.app.goo.gl/KH1mnb7NiEkyGqTn7" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Hotel MAS Monzon</a></strong>.
                 </p>
                 <p>
                 Cuento con un <strong className="text-white font-semibold">Certificado JavaScript</strong>.
